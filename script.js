@@ -13,7 +13,7 @@ function multiplication(x, y) {
 
 function division(x, y) {
     if (y === 0) {
-        return 'Error! Zero Division cannot be divided...';
+        return 'Error: Division by zero is not allowed!';
     }
     return x / y;
 }
@@ -36,7 +36,7 @@ while (true) {
         alert(`${num1} * ${num2} = ${result}`);
     } else if (operation === 4) {
         if (num2 === 0) {
-            alert('Error! Zero Division cannot be divided...');
+            alert('Error: Division by zero is not allowed!');
         } else {
             result = division(num1, num2);
             alert(`${num1} / ${num2} = ${result}`);
